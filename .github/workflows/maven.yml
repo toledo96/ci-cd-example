@@ -39,7 +39,7 @@ jobs:
         #image: repo/image
         image: atoledo96/springboot-images-new
         tags: latest
-        registry: registry-url.io
+        registry: docker.io
         dockerfile: Dockerfile
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
